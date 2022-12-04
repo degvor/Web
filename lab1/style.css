@@ -41,7 +41,7 @@ body {
 }
 
 .div3{
-  height: 20%;
+  height: auto;
   width: 100%;
   background-color: gold;
 }
@@ -53,7 +53,7 @@ body {
 }
 
 .div4_5{
-  height: 80%;
+  height: auto;
   width: 100%;
   background-color: burlywood;
 }
