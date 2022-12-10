@@ -44,15 +44,23 @@ body{
     font-size: 25;
 }
 
+.div2-3-4-5-6{
+    display: grid;
+    background-color: yellow;
+    grid-template-rows: auto auto;
+}
+
 .div2-3-4-5{
     display: grid;
     background-color: darkblue;
-    height: 79vh;
-    grid-template-columns: 1fr 4fr;
+    min-height: 79vh;
+    height: auto;
+    grid-template-columns: auto auto;
 }
 
 .div2{
     background-color: red;
+    object-fit: fill;
 }
 
 .div2 iframe{
@@ -63,7 +71,8 @@ body{
 .div3-4-5{
     background-color: mediumspringgreen;
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    height: 100%;
+    grid-template-rows: 0fr 4fr;
 }
 
 .div3{
